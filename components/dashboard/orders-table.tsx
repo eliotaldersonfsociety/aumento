@@ -76,7 +76,7 @@ export function OrdersTable() {
           </thead>
           <tbody>
             {filteredOrders.map((order) => (
-              <tr key={order.id} className="border-b border-white/5 hover:bg-white/5">
+              <tr key={order.id} className="border-b border-white/5 hover:bg-white/5 cursor-pointer" onClick={() => setSelectedOrder(order)}>
                 <td className="p-4 font-medium text-white">#{order.id}</td>
                 <td className="p-4 text-white">{order.user_name}</td>
                 <td className="p-4 text-white">{order.servicio}</td>
