@@ -151,9 +151,12 @@ export function OrdersTable() {
                       ));
                       setSelectedOrder({ ...selectedOrder, status: newStatus });
                       setNewStatus("");
+                      setSelectedOrder(null); // Cerrar el modal después de actualizar
                     } else {
                       alert("Error al actualizar el estado: " + result.error);
                     }
+                  } else {
+                    setSelectedOrder(null); // Cerrar el modal si no hay cambios
                   }
                 }}
                 className="w-full bg-blue-500 hover:bg-blue-600 text-white"
