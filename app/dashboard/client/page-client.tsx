@@ -19,7 +19,7 @@ export default function ClientDashboardClient({
   return (
     <div className="max-w-7xl mx-auto">
       <div className="mb-8 text-center md:text-left">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 pt-20">
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 pt-24">
           Mi Dashboard
         </h1>
         <p className="text-white/80 text-sm md:text-base">
