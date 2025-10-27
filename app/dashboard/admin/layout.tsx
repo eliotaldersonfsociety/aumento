@@ -3,7 +3,6 @@ import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { ReactNode } from 'react';
 import { AdminHeader } from "@/components/dashboard/admin-header";
-import { Footer } from "@/components/footer";
 import db from '@/lib/db';
 import { Sidebar } from '../../../components/dashboard/sidebar';
 
@@ -64,7 +63,6 @@ export default async function AdminDashboardLayout({
       <main className="flex-1 px-4 md:px-8 pt-4 md:pt-32 transition-all duration-300 pb-5">
         {children}
       </main>
-      <Footer />
     </div>
   );
 }
