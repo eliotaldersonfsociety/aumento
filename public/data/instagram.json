@@ -1,0 +1,835 @@
+{
+  "Instagram": {
+    "icon": "Instagram",
+    "categories": {
+      "Seguidores": {
+        "types": {
+          "Seguidores Latinos": {
+            "pricePerUnit": 0.015,
+            "minQuantity": 100,
+            "maxQuantity": 15000,
+            "deliveryTime": "3-5 días",
+            "description": "Seguidores reales y activos con perfiles completos. Garantía de retención del 90%.",
+            "features": [
+              "Perfiles reales",
+              "Entrega gradual",
+              "Garantía 30 días"
+            ]
+          },
+          "Seguidores Internacionales": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 100,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 días",
+            "description": "Seguidores de calidad internacional para expandir tu alcance global.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Seguidores Bots": {
+            "pricePerUnit": 0.003,
+            "minQuantity": 100,
+            "maxQuantity": 30000,
+            "deliveryTime": "1-2 días",
+            "description": "Seguidores automatizados para un crecimiento rápido y económico y posible caidas de los seguidores ya aumentados.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Likes": {
+        "types": {
+          "Likes Latinos": {
+            "pricePerUnit": 0.005,
+            "minQuantity": 100,
+            "maxQuantity": 10000,
+            "deliveryTime": "1-3 horas",
+            "description": "Likes de cuentas reales latinoamericanas para mejorar tu engagement.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Sin bots"
+            ]
+          },
+          "Likes Internacionales": {
+            "pricePerUnit": 0.003,
+            "minQuantity": 200,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Likes de usuarios internacionales para diversificar tu audiencia.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Likes Bots": {
+            "pricePerUnit": 0.001,
+            "minQuantity": 100,
+            "maxQuantity": 10000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Likes automatizados para un impulso rápido y económico en tus publicaciones.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Comentarios": {
+        "types": {
+          "Comentarios Latinos Personalizados": {
+            "pricePerUnit": 0.25,
+            "minQuantity": 20,
+            "maxQuantity": 2000,
+            "deliveryTime": "4-8 horas",
+            "description": "Comentarios auténticos de usuarios latinoamericanos para aumentar la interacción.",
+            "features": [
+              "Comentarios únicos",
+              "Usuarios reales",
+              "Entrega gradual"
+            ]
+          },
+          "Comentarios Internacionales Personalizados": {
+            "pricePerUnit": 0.1,
+            "minQuantity": 30,
+            "maxQuantity": 1500,
+            "deliveryTime": "6-10 horas",
+            "description": "Comentarios genuinos de una audiencia internacional para diversificar la interacción.",
+            "features": [
+              "Alcance global",
+              "Comentarios variados",
+              "Perfiles activos"
+            ]
+          },
+          "Comentarios Bots Personalizados": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 50,
+            "maxQuantity": 5000,
+            "deliveryTime": "9-12 horas",
+            "description": "Comentarios automatizados para un aumento rápido y económico de la interacción.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          },
+          "Comentarios Emojis": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 20,
+            "maxQuantity": 2000,
+            "deliveryTime": "4-8 horas",
+            "description": "Comentarios con emojis populares para aumentar la visibilidad de tus publicaciones.",
+            "features": [
+              "Comentarios únicos",
+              "Usuarios reales",
+              "Entrega gradual"
+            ]
+          },
+          "Comentarios aleatorios": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 50,
+            "maxQuantity": 5000,
+            "deliveryTime": "1-3 horas",
+            "description": "Comentarios aleatorios para diversificar la interacción en tus publicaciones.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Reproduciones de video latinas (Reel - video -IGTV)": {
+        "types": {
+          "Reproducciones de Video Latinas": {
+            "pricePerUnit": 0.001,
+            "minQuantity": 1000,
+            "maxQuantity": 100000,
+            "deliveryTime": "1-3 horas",
+            "description": "Aumenta las reproducciones de tus videos con vistas reales latinoamericanas.",
+            "features": [
+              "Vistas reales",
+              "Entrega rápida",
+              "Mejora el algoritmo"
+            ]
+          },
+          "Reproducciones de Video Internacionales": {
+            "pricePerUnit": 0.0005,
+            "minQuantity": 1000,
+            "maxQuantity": 50000,
+            "deliveryTime": "2-4 horas",
+            "description": "Impulsa tus videos con reproducciones de una audiencia internacional.",
+            "features": [
+              "Alcance global",
+              "Vistas activas",
+              "Entrega segura"
+            ]
+          },
+          "Reproducciones de Video Bots": {
+            "pricePerUnit": 0.0003,
+            "minQuantity": 2000,
+            "maxQuantity": 200000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Reproducciones automatizadas para un aumento rápido y económico en tus videos.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Vistas - Impresiones Latinas (Historias - Reels)": {
+        "types": {
+          "Vistas Historias - Reel Latinas": {
+            "pricePerUnit": 0.001,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "30 minutos",
+            "description": "Aumenta la visibilidad de tus historias con vistas reales latinoamericanas.",
+            "features": [
+              "Inicio inmediato",
+              "Tráfico real",
+              "Seguro 100%"
+            ]
+          },
+          "Vistas Reels - Historias Internacionales": {
+            "pricePerUnit": 0.0005,
+            "minQuantity": 1000,
+            "maxQuantity": 50000,
+            "deliveryTime": "1-2 horas",
+            "description": "Impulsa tus reels con vistas reales latinoamericanas para mejorar el algoritmo.",
+            "features": [
+              "Entrega rápida",
+              "Vistas reales",
+              "Algoritmo boost"
+            ]
+          },
+          "Vistas Reels - Historias Bots": {
+            "pricePerUnit": 0.0003,
+            "minQuantity": 2000,
+            "maxQuantity": 200000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Vistas automatizadas para un aumento rápido y económico en tus historias y reels.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Vistas de historias": {
+        "types": {
+          "Vistas de Historias Latinas": {
+            "pricePerUnit": 0.003,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "30 minutos",
+            "description": "Aumenta la visibilidad de tus historias con vistas reales latinoamericanas.",
+            "features": [
+              "Inicio inmediato",
+              "Tráfico real",
+              "Seguro 100%"
+            ]
+          },
+          "Vistas de Historias Internacionales": {
+            "pricePerUnit": 0.004,
+            "minQuantity": 1000,
+            "maxQuantity": 50000,
+            "deliveryTime": "1-2 horas",
+            "description": "Impulsa tus historias con vistas reales internacionales para mejorar el algoritmo.",
+            "features": [
+              "Entrega rápida",
+              "Vistas reales",
+              "Algoritmo boost"
+            ]
+          },
+          "Vistas de Historias Bots": {
+            "pricePerUnit": 0.002,
+            "minQuantity": 2000,
+            "maxQuantity": 200000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Vistas automatizadas para un aumento rápido y económico en tus historias.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Likes a historias": {
+        "types": {
+          "Likes a Historias Latinas": {
+            "pricePerUnit": 0.005,
+            "minQuantity": 100,
+            "maxQuantity": 20000,
+            "deliveryTime": "1-3 horas",
+            "description": "Likes de cuentas reales latinoamericanas para mejorar tu engagement en historias.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Sin bots"
+            ]
+          },
+          "Likes a Historias Internacionales": {
+            "pricePerUnit": 0.003,
+            "minQuantity": 200,
+            "maxQuantity": 15000,
+            "deliveryTime": "2-4 horas",
+            "description": "Likes de usuarios internacionales para diversificar tu audiencia en historias.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Likes a Historias Bots": {
+            "pricePerUnit": 0.002,
+            "minQuantity": 500,
+            "maxQuantity": 50000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Likes automatizados para un impulso rápido y económico en tus historias.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Votos en las publicaciones": {
+        "types": {
+          "Votos en Publicaciones": {
+            "pricePerUnit": 0.02,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la popularidad de tus publicaciones con votos reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          }
+        }
+      },
+      "Votos en las historias": {
+        "types": {
+          "Votos en Historias Respuesta 1": {
+            "pricePerUnit": 0.08,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la popularidad de tus historias con votos reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          },
+          "Votos en Historias Respuesta 2": {
+            "pricePerUnit": 0.06,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la popularidad de tus historias con votos reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          },
+          "Votos en Historias Respuesta 3": {
+            "pricePerUnit": 0.04,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la popularidad de tus historias con votos reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          }
+        }
+      },
+      "En vivo": {
+        "types": {
+          "Vistas en Vivo 15 minutos": {
+            "pricePerUnit": 0.005,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "30 minutos",
+            "description": "Aumenta la audiencia de tus transmisiones en vivo con vistas reales.",
+            "features": [
+              "Inicio inmediato",
+              "Tráfico real",
+              "Seguro 100%"
+            ]
+          },
+          "Vistas en Vivo 30 minutos": {
+            "pricePerUnit": 0.009,
+            "minQuantity": 1000,
+            "maxQuantity": 50000,
+            "deliveryTime": "1-2 horas",
+            "description": "Impulsa tus transmisiones en vivo con vistas reales internacionales.",
+            "features": [
+              "Entrega rápida",
+              "Vistas reales",
+              "Algoritmo boost"
+            ]
+          },
+          "Vistas en Vivo 60 minutos": {
+            "pricePerUnit": 0.015,
+            "minQuantity": 2000,
+            "maxQuantity": 200000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Vistas automatizadas para un aumento rápido y económico en tus transmisiones en vivo.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          },
+          "Vistas en Vivo 120 minutos": {
+            "pricePerUnit": 0.02,
+            "minQuantity": 3000,
+            "maxQuantity": 300000,
+            "deliveryTime": "1-2 horas",
+            "description": "Vistas automatizadas para un aumento rápido y económico en tus transmisiones en vivo.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          },
+          "Vistas en Vivo 180 minutos": {
+            "pricePerUnit": 0.03,
+            "minQuantity": 4000,
+            "maxQuantity": 400000,
+            "deliveryTime": "1-2 horas",
+            "description": "Vistas automatizadas para un aumento rápido y económico en tus transmisiones en vivo.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          },
+          "Vistas en Vivo 360 minutos": {
+            "pricePerUnit": 0.05,
+            "minQuantity": 6000,
+            "maxQuantity": 600000,
+            "deliveryTime": "1-2 horas",
+            "description": "Vistas automatizadas para un aumento rápido y económico en tus transmisiones en vivo.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Likes en vivo": {
+        "types": {
+          "Likes en Vivo Latinos": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 100,
+            "maxQuantity": 20000,
+            "deliveryTime": "1-3 horas",
+            "description": "Likes de cuentas reales latinoamericanas para mejorar tu engagement en vivo.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Sin bots"
+            ]
+          },
+          "Likes en Vivo Internacionales": {
+            "pricePerUnit": 0.008,
+            "minQuantity": 200,
+            "maxQuantity": 15000,
+            "deliveryTime": "2-4 horas",
+            "description": "Likes de usuarios internacionales para diversificar tu audiencia en vivo.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Likes en Vivo Bots": {
+            "pricePerUnit": 0.004,
+            "minQuantity": 500,
+            "maxQuantity": 50000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Likes automatizados para un impulso rápido y económico en tus transmisiones en vivo.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Comentarios en vivo": {
+        "types": {
+          "Comentarios en Vivo Latinos": {
+            "pricePerUnit": 0.1,
+            "minQuantity": 20,
+            "maxQuantity": 2000,
+            "deliveryTime": "4-8 horas",
+            "description": "Comentarios auténticos de usuarios latinoamericanos para aumentar la interacción en vivo.",
+            "features": [
+              "Comentarios únicos",
+              "Usuarios reales",
+              "Entrega gradual"
+            ]
+          },
+          "Comentarios en Vivo Internacionales": {
+            "pricePerUnit": 0.08,
+            "minQuantity": 30,
+            "maxQuantity": 1500,
+            "deliveryTime": "6-10 horas",
+            "description": "Comentarios genuinos de una audiencia internacional para diversificar la interacción en vivo.",
+            "features": [
+              "Alcance global",
+              "Comentarios variados",
+              "Perfiles activos"
+            ]
+          },
+          "Comentarios en Vivo Bots": {
+            "pricePerUnit": 0.03,
+            "minQuantity": 50,
+            "maxQuantity": 5000,
+            "deliveryTime": "1-3 horas",
+            "description": "Comentarios automatizados para un aumento rápido y económico de la interacción en vivo.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Compartir": {
+        "types": {
+          "Compartir Publicaciones Latinas": {
+            "pricePerUnit": 0.02,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la difusión de tus publicaciones con compartidos reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          },
+          "Compartir Publicaciones Internacionales": {
+            "pricePerUnit": 0.018,
+            "minQuantity": 100,
+            "maxQuantity": 8000,
+            "deliveryTime": "3-5 horas",
+            "description": "Amplía el alcance de tus publicaciones con compartidos internacionales.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Compartir Publicaciones Bots": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 200,
+            "maxQuantity": 20000,
+            "deliveryTime": "1-2 horas",
+            "description": "Compartidos automatizados para un aumento rápido y económico en tus publicaciones.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Visitas al perfil": {
+        "types": {
+          "Visitas al Perfil Latinas": {
+            "pricePerUnit": 0.004,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "1-2 horas",
+            "description": "Aumenta el tráfico a tu perfil con visitas reales latinoamericanas.",
+            "features": [
+              "Tráfico real",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          },
+          "Visitas al Perfil Internacionales": {
+            "pricePerUnit": 0.005,
+            "minQuantity": 1000,
+            "maxQuantity": 50000,
+            "deliveryTime": "2-4 horas",
+            "description": "Impulsa las visitas a tu perfil con tráfico internacional.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Visitas al Perfil Bots": {
+            "pricePerUnit": 0.002,
+            "minQuantity": 2000,
+            "maxQuantity": 200000,
+            "deliveryTime": "30 minutos - 1 hora",
+            "description": "Visitas automatizadas para un aumento rápido y económico en tu perfil.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Repostear publicaciones": {
+        "types": {
+          "Repostear Publicaciones Latinas": {
+            "pricePerUnit": 0.02,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la difusión de tus publicaciones con reposts reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          },
+          "Repostear Publicaciones Internacionales": {
+            "pricePerUnit": 0.018,
+            "minQuantity": 100,
+            "maxQuantity": 8000,
+            "deliveryTime": "3-5 horas",
+            "description": "Amplía el alcance de tus publicaciones con reposts internacionales.",
+            "features": [
+              "Alcance global",
+              "Perfiles activos",
+              "Entrega segura"
+            ]
+          },
+          "Repostear Publicaciones Bots": {
+            "pricePerUnit": 0.01,
+            "minQuantity": 200,
+            "maxQuantity": 20000,
+            "deliveryTime": "1-2 horas",
+            "description": "Reposts automatizados para un aumento rápido y económico en tus publicaciones.",
+            "features": [
+              "Crecimiento rápido",
+              "Económico",
+              "Sin riesgo de contraseña"
+            ]
+          }
+        }
+      },
+      "Cuentas verificadas": {
+        "types": {
+          " 1 like Cuenta Verificada Instagram": {
+            "pricePerUnit": 150,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "7-14 días",
+            "description": "Recibirás 1 me gusta verificados por Instagram.",
+            "features": [
+              "Insignia oficial",
+              "Cuentas reales",
+              "Soporte dedicado"
+            ]
+          },
+          " 2 likes Cuentas Verificadas Instagram": {
+            "pricePerUnit": 400,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "7-14 días",
+            "description": "Recibirás 2 me gusta verificados por Instagram.",
+            "features": [
+              "Insignias oficiales",
+              "Cuentas reales",
+              "Soporte prioritario"
+            ]
+          },
+          " 3 likes Cuentas Verificadas Instagram": {
+            "pricePerUnit": 700,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "7-14 días",
+            "description": "Recibirás 3 me gusta verificados por Instagram.",
+            "features": [
+              "Insignias oficiales",
+              "Cuentas reales",
+              "Soporte premium"
+            ]
+          },
+          "Comentario Cuenta Verificada Instagram": {
+            "pricePerUnit": 250,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "7-14 días",
+            "description": "Recibirás un comentario de 4 emojis de una cuenta verificada por Instagram.",
+            "features": [
+              "Insignia oficial",
+              "Comentario auténtico",
+              "Soporte dedicado"
+            ]
+          }
+        }
+      },
+      "Me gusta en los comentarios": {
+        "types": {
+          "Me gusta en Comentarios": {
+            "pricePerUnit": 0.015,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "2-4 horas",
+            "description": "Aumenta la popularidad de tus comentarios con me gusta reales.",
+            "features": [
+              "Cuentas reales",
+              "Entrega rápida",
+              "Mejora visibilidad"
+            ]
+          }
+        }
+      },
+      "Miembros del canal": {
+        "types": {
+          "Miembros del Canal": {
+            "pricePerUnit": 0.1,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "3-5 días",
+            "description": "Aumenta los miembros de tu canal con cuentas reales y activas.",
+            "features": [
+              "Cuentas reales",
+              "Retención garantizada",
+              "Cumple políticas"
+            ]
+          }
+        }
+      },
+      "Menciones": {
+        "types": {
+          "Menciones en Publicaciones": {
+            "pricePerUnit": 5,
+            "minQuantity": 1,
+            "maxQuantity": 100,
+            "deliveryTime": "1-3 días",
+            "description": "Este servicio MENCIONA los seguidores de una cuenta en especifico en tu publicación, puedes usarla para mencionar a los seguidores de tu competencia. NOTA: Como todos sabemos, mencionar es el mejor servicio para obtener más (Ventas, Seguidores, Me gusta, etc.) en Instagram. Pero también puede ser un servicio de spam y puede recibir informes de cuentas etiquetadas, por eso te recomendamos utilizarlo prudentemente. Si deseas que mencionemos los seguidores de una cuenta en especifico, por favor indícanos el nombre de usuario en la sección de comentarios al momento de realizar tu pedido. NOMBRE DE USUARIO: El nombre del usuario del cual deseas mencionar a sus seguidores.",
+            "features": [
+              "Cuentas activas",
+              "Alcance garantizado",
+              "Soporte 24/7"
+            ]
+          }
+        }
+      },
+      "Extractor de datos de Instagram": {
+        "types": {
+          "Extractor de Seguidores de Instagram": {
+            "pricePerUnit": 10,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "1-3 días",
+            "description": "Obtén una lista detallada de seguidores, correos electrónicos y más de cualquier cuenta pública de Instagram.",
+            "features": [
+              "Datos precisos",
+              "Formato CSV",
+              "Soporte dedicado"
+            ]
+          },
+          "Extractor de comentarios de Instagram": {
+            "pricePerUnit": 8,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "1-3 días",
+            "description": "Extrae comentarios, nombres de usuario y detalles de cualquier publicación pública de Instagram.",
+            "features": [
+              "Comentarios completos",
+              "Formato CSV",
+              "Soporte dedicado"
+            ]
+          },
+          "Extractor de Me gusta de Instagram": {
+            "pricePerUnit": 7,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "1-3 días",
+            "description": "Recopila una lista de usuarios que han dado me gusta a cualquier publicación pública de Instagram.",
+            "features": [
+              "Lista detallada",
+              "Formato CSV",
+              "Soporte dedicado"
+            ]
+          },
+          "Extractor de Hashtags de Instagram": {
+            "pricePerUnit": 5,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "1-3 días",
+            "description": "Genera una lista de hashtags relevantes y populares basados en palabras clave específicas.",
+            "features": [
+              "Hashtags relevantes",
+              "Formato CSV",
+              "Soporte dedicado"
+            ]
+          },
+          "Extractor de comentarios por hashtag de Instagram": {
+            "pricePerUnit": 12,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "2-4 días",
+            "description": "Extrae comentarios de publicaciones que utilizan hashtags específicos en Instagram.",
+            "features": [
+              "Comentarios precisos",
+              "Formato CSV",
+              "Soporte dedicado"
+            ]
+          }
+        }
+      },
+      "Instagram": {
+        "types": {
+          "Seguidores": {
+            "pricePerUnit": 0.1,
+            "minQuantity": 99,
+            "maxQuantity": 100000,
+            "deliveryTime": "2-3",
+            "description": "Esta es una prueba",
+            "features": [
+              "entrega rapida"
+            ]
+          }
+        }
+      },
+      "Seguidores Asi es": {
+        "types": {
+          "Seguidores cagados": {
+            "pricePerUnit": 0.5,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "1-3 dias",
+            "description": "ap",
+            "features": [
+              "sdsa"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

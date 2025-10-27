@@ -1,0 +1,22 @@
+{
+  "TikTok": {
+    "categories": {
+      "Seguidores": {
+        "types": {
+          "Seguidores Latinos": {
+            "pricePerUnit": 0.015,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "1-3 días",
+            "description": "Seguidores reales y activos para TikTok con perfiles completos.",
+            "features": [
+              "Perfiles reales",
+              "Entrega gradual",
+              "Garantía 30 días"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

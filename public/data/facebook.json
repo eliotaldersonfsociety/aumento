@@ -1,0 +1,20 @@
+{
+  "Facebook": {
+    "categories": {
+      "Seguidores": {
+        "types": {
+          "Seguidores latinos": {
+            "pricePerUnit": 0.5,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "1-2 dias",
+            "description": "asi es",
+            "features": [
+              "claro q si"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
