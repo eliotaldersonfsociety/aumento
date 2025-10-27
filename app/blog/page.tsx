@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -15,7 +15,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination"
 
-export default function BlogPage() {
+function BlogContent() {
   const searchParams = useSearchParams()
   const initialPage = parseInt(searchParams.get("page") || "1", 10)
   const [page, setPage] = useState(initialPage)
@@ -42,6 +42,50 @@ export default function BlogPage() {
   }
 
   return (
+    <>
+      {loading ? (
+        <p className="text-center text-white/80">Cargando...</p>
+      ) : posts.length > 0 ? (
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {posts.slice((page - 1) * 10, page * 10).map((post) => (
+              <BlogCard key={post.id} {...post} />
+            ))}
+          </div>
+
+          <div className="mt-10">
+            <Pagination>
+              <PaginationContent>
+                <PaginationItem>
+                  <PaginationPrevious
+                    onClick={() => page > 1 && handlePageChange(page - 1)}
+                    className={page <= 1 ? "pointer-events-none opacity-50" : ""}
+                  />
+                </PaginationItem>
+                <PaginationItem>
+                  <PaginationLink isActive>{page}</PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                  <PaginationNext
+                    onClick={() => page < Math.ceil(posts.length / 10) && handlePageChange(page + 1)}
+                    className={page >= Math.ceil(posts.length / 10) ? "pointer-events-none opacity-50" : ""}
+                  />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+          </div>
+        </>
+      ) : (
+        <p className="text-center text-white/80">
+          No se pudieron cargar los artículos. Intenta más tarde.
+        </p>
+      )}
+    </>
+  )
+}
+
+export default function BlogPage() {
+  return (
     <div className="min-h-screen bg-gradient-to-t from-[#fc79fc] via-[#fff3a8] to-[#77b6f5] flex flex-col">
       <Header />
 
@@ -51,43 +95,9 @@ export default function BlogPage() {
             Blog de Marketing Digital
           </h1>
 
-          {loading ? (
-            <p className="text-center text-white/80">Cargando...</p>
-          ) : posts.length > 0 ? (
-            <>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {posts.slice((page - 1) * 10, page * 10).map((post) => (
-                  <BlogCard key={post.id} {...post} />
-                ))}
-              </div>
-
-              <div className="mt-10">
-                <Pagination>
-                  <PaginationContent>
-                    <PaginationItem>
-                      <PaginationPrevious
-                        onClick={() => page > 1 && handlePageChange(page - 1)}
-                        className={page <= 1 ? "pointer-events-none opacity-50" : ""}
-                      />
-                    </PaginationItem>
-                    <PaginationItem>
-                      <PaginationLink isActive>{page}</PaginationLink>
-                    </PaginationItem>
-                    <PaginationItem>
-                      <PaginationNext
-                        onClick={() => page < Math.ceil(posts.length / 10) && handlePageChange(page + 1)}
-                        className={page >= Math.ceil(posts.length / 10) ? "pointer-events-none opacity-50" : ""}
-                      />
-                    </PaginationItem>
-                  </PaginationContent>
-                </Pagination>
-              </div>
-            </>
-          ) : (
-            <p className="text-center text-white/80">
-              No se pudieron cargar los artículos. Intenta más tarde.
-            </p>
-          )}
+          <Suspense fallback={<p className="text-center text-white/80">Cargando...</p>}>
+            <BlogContent />
+          </Suspense>
         </div>
       </main>
 

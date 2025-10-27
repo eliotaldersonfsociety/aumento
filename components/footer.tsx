@@ -1,3 +1,5 @@
+"use client"
+
 import SmallLogo from "@/public/logo/smalllogo"
 import { Instagram, Facebook, Twitter, Youtube, Music } from "lucide-react"
 import { useTranslation } from "react-i18next"

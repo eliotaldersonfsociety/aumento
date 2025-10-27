@@ -1,3 +1,5 @@
+"use client"
+
 import { Shield, Zap, HeadphonesIcon, TrendingUp } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
