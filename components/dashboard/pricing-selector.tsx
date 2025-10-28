@@ -84,7 +84,36 @@ export function PricingSelector() {
   }, [selectedService]);
 
   // Derived values
-  const serviceKeys = ["Instagram", "Youtube", "Facebook", "Twitter"];
+  const serviceKeys = [
+  "Instagram",
+  "TikTok",
+  "YouTube",
+  "Facebook",
+  "Twitter/X",
+  "Telegram",
+  "WhatsApp",
+  "Spotify",
+  "Twitch",
+  "Kick",
+  "Kwai",
+  "LinkedIn",
+  "Discord",
+  "Pinterest",
+  "Vimeo",
+  "SoundCloud",
+  "Snapchat",
+  "Dribbble",
+  "Threads",
+  "Tidal",
+  "iTunes",
+  "Tráfico Web",
+  "Reseñas Google",
+  "Apps Android",
+  "Apps iOS",
+  "TripAdvisor",
+  "Reseñas Gmail",
+];
+
   const categoryKeys = selectedService
     ? Object.keys(servicesData[selectedService]?.categories || {})
     : [];
